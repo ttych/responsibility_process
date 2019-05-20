@@ -1,0 +1,29 @@
+#+REVEAL_ROOT: ./
+#+REVEAL_THEME: moon
+#+OPTIONS: toc:nil num:nil
+
+#+TITLE: Responsibility inside Scrum
+#+AUTHOR: Thomas Tychensky
+
+* slide 1
+* slide 2
+** slide 2.1
+** slide 2.2
+* slide 3
+- list 1
+- list 2
+- list 3
+* slide 4
+| t1 | t2 |
+|----+----|
+| a  | b  |
+|    | c  |
+|    | d  |
+|    | e  |
+
+* slide 5
+
+#+BEGIN_SRC ruby
+  def abc
+    :abc
+#+END_SRC

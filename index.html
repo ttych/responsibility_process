@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Responsibility inside Scrum</title>
+<meta name="author" content="(Thomas Tychensky)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./css/reveal.css"/>
+
+<link rel="stylesheet" href="./css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Responsibility inside Scrum</h1><h2 class="author">Thomas Tychensky</h2><p class="date">Created: 2019-05-20 lun. 22:16</p>
+</section>
+
+<section>
+<section id="slide-sec-">
+<h2 id="org798524f">slide 1</h2>
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org71ea392">slide 2</h2>
+<div class="outline-text-2" id="text-org71ea392">
+</div>
+</section>
+<section id="slide-sec-">
+<h3 id="orgbba065c">slide 2.1</h3>
+</section>
+<section id="slide-sec-">
+<h3 id="orgb6e8e11">slide 2.2</h3>
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org2e70482">slide 3</h2>
+<ul>
+<li>list 1</li>
+<li>list 2</li>
+<li>list 3</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org777fa03">slide 4</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">t1</th>
+<th scope="col" class="org-left">t2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">a</td>
+<td class="org-left">b</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">c</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">d</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">e</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+</section>
+<section>
+<section id="slide-sec-">
+<h2 id="org066e598">slide 5</h2>
+<div class="org-src-container">
+
+<pre  class="src src-ruby"><span style="color: #d75f5f;">def</span> <span style="color: #ffaf00;">abc</span>
+  <span style="color: #d787af;">:abc</span>
+</pre>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="./lib/js/head.min.js"></script>
+<script src="./js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
