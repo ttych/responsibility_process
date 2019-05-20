@@ -5,7 +5,9 @@
 #+TITLE: Responsibility inside Scrum
 #+AUTHOR: Thomas Tychensky
 
-* slide 1
+* How it started
+** Why do we continue to do retrospective ?
+
 * slide 2
 ** slide 2.1
 ** slide 2.2
